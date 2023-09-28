@@ -13,7 +13,7 @@ $idEquipe = $data["idEquipe"];
 try {
     // *************** POUR MAMP *******************
     // ** Changez les infos de connexion en fonction de votre serveur **
-    $connexion = mysqli_connect("localhost", "root", "root", "ligue-async");
+    $connexion = mysqli_connect("localhost", "root", "", "ligue_async");
 
     if ($connexion == false) {
         // La connexion n'a pas fonctionnée

@@ -5,7 +5,7 @@ mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 try {
     // *************** POUR MAMP *******************
     // ** Changez les infos de connexion en fonction de votre serveur **
-    $connexion = mysqli_connect("localhost", "root", "root", "ligue-async");
+    $connexion = mysqli_connect("localhost", "root", "", "ligue_async");
 
     if (!$connexion) {
         // La connexion n'a pas fonctionnée
